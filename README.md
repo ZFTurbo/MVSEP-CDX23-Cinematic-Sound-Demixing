@@ -1,6 +1,6 @@
 # MVSEP-CDX23-Cinematic-Sound-Demixing
 
-Model for [Sound demixing challenge 2023: Cinematic Sound Demixing Track - CDX'23](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023). Model performs separation of music into 3 stems "dialog (speech)", "effect (sfx)", "music". Model was trained on [DnR dataset](https://zenodo.org/record/5574713).  It based on [Demucs4](https://github.com/facebookresearch/demucs). Since test set in contest was very different from DnR we released best model with best metrics for DnR test set. Pretrained weigths are available. 
+Model for [Sound demixing challenge 2023: Cinematic Sound Demixing Track - CDX'23](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023). Model performs separation of music into 3 stems "dialog (speech)", "effect (sfx)", "music". Model was trained on [DnR dataset](https://zenodo.org/record/5574713).  It based on [Demucs4](https://github.com/facebookresearch/demucs). Test set in CDX23 contest was very different from DnR train data. So we released best models with best metrics for DnR test set. 
 
 ## Usage
 
@@ -19,7 +19,7 @@ Quality were measured on [DnR test set](https://zenodo.org/record/5574713)
 | Algorithm     | SDR dialog  | SDR effect  | SDR music  | SDR mean |
 | ------------- |:---------:|:----------:|:----------:|:----------:|
 | Demucs HT 4 (single model)   | 14.18   | 7.92    | 6.75     | 9.62     |
-| Demucs HT 4 (3 checkpoints)   | 14.68   | 8.48    | 7.30     | 10.16     |
+| Demucs HT 4 (3 checkpoints ensemble)   | 14.68   | 8.48    | 7.30     | 10.16     |
 
 * Note 1: SDR - signal to distortion ratio. Larger is better.
 * Note 2: Music stem in DnR dataset can contain vocals
