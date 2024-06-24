@@ -37,7 +37,11 @@ Quality were measured on [DnR test set](https://zenodo.org/record/5574713)
       archivePrefix={arXiv},
       primaryClass={cs.SD}
 }
+```
 
+* [TISMIR paper](https://doi.org/10.5334/tismir.172)
+
+```
 @article{f2024sound,
     title={The Sound Demixing Challenge 2023 – Cinematic Demixing Track},
     author={Stefan Uhlich, Giorgio Fabbro, Masato Hirano, Shusuke Takahashi, Gordon Wichern, Jonathan Le Roux, Dipam Chakraborty, Sharada Mohanty, Kai Li, Yi Luo, Jianwei Yu, Rongzhi Gu, Roman Solovyev, Alexander Stempkovskiy, Tatiana Habruseva, Mikhail Sukhovei, Yuki Mitsufuji},
